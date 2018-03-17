@@ -8,7 +8,7 @@ var Stack = function() {
     };
     this.remove = function() {
     	var val=this._storage[value];
-    	this._storage.shift(value);
+    	this._storage.pop();
     	counter--;
     	return val;
       // write 	me

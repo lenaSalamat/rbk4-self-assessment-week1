@@ -5,4 +5,4 @@
 Please write your explanation below.
 stack :stack is method to insert data in memory like stack and it runs like the first element or data in is the last element aut. (lefo) .
 
-queue :queue is method to insert data in memory like queue and it is like the first element or data in is the first element aut. (fefo)
+queue :queue is method to insert data in memory like queue and it is like the first element or data in is the first element aut. (fefo) .
