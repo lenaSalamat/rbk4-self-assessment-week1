@@ -9,6 +9,18 @@ var makeHashTable = function() {
       },
 
       insert: function(key, value) {
+        var pucket=this._storage[hashFn(key, max)];
+        if(!pucket){
+          pucket=[];
+          this.pucket.push(this._storage[hashFn(key, max)])
+        }
+        for(var i=0;i<pucket.length;i++){
+          var tuple=pucket[i];
+          if(pucket[0]===key){
+            tuple[1]=value;
+      this._storage.push(pucket);
+          }
+        }
         //your code is here
         this._storage[hashFn(key, max)] = value;
     }
